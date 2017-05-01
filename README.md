@@ -1,7 +1,7 @@
-#String Util
+# String Util
 
-##Validator Util
-######Example:
+## Validator Util
+###### Example:
 ```
 /**
  * @param string $value
@@ -11,7 +11,7 @@
  */
 StringUtils\Validator::isDate($value, $options = [], $debug = null);
 ```
-######Methods
+###### Methods
 ```
 StringUtils\Validator::isDate           // validates date
 StringUtils\Validator::isEmail          // validates email
@@ -25,7 +25,7 @@ StringUtils\Validator::isAphabet        // validtes alphabetic string
 StringUtils\Validator::isNumeric        // validates numeric string
 StringUtils\Validator::isAlnum          // validates alphanumeric string
 ```
-######Options
+###### Options
 ```
 $options = [
        // generic options 
