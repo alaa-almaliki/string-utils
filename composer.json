@@ -1,0 +1,19 @@
+{
+  "name": "alaa-almaliki/string-utils",
+  "type": "library",
+  "homepage": "https://github.com/alaa-almaliki/string-utils",
+  "authors": [
+    {
+      "name": "Alaa Al-Maliki",
+      "email": "alaa.almaliki@gmail.com"
+    }
+  ],
+  "require": {
+    "giggsey/libphonenumber-for-php": "^8.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "StringUtils\\": "src/"
+    }
+  }
+}
